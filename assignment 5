@@ -1,1 +1,79 @@
+ aliclule stdio.h
 
+Forestring.h>
+
+string.c
+
+int main()
+{
+char str1[20],str2[20];
+
+lat ch.1.31
+
+do
+{
+printf("MENU");
+
+printf("\n")
+
+printf("1 find length of string");
+
+printf("\n2:concatenate strings");
+
+printf("\n3:copy string");
+
+printf("\nd compare strings");
+
+printf)كم:ext
+
+printf("\n"); printf("\nenter your choice");
+
+scanf("%d",&ch);
+
+switch(ch)
+{
+case 11
+
+printf("enter string:");
+
+scanf(str1);
+
+t-strlen(str1);
+
+printf("length of string:%d\n\n",t); break;
+
+case 2:
+
+printf("\nenter first string:");
+
+scanf("%s",str1);
+
+printf("enter second string:");
+
+strcat(str1,str2);
+
+printf("string after concatenation: %s\n\n",str1); break;
+
+case 3:
+
+printf("enter a string);
+
+scanf("%s", str1);
+
+printf("enter a string2:");
+
+printf("\nstring before copled:\nstring=\"%s\".string2=\"\"\n",stri,str2);
+
+strcpy(str2,str1);
+
+printf("\n");
+
+printf("we are copying string 1 to string?"\n");
+
+printf("\n") printf("string after copled:\nstring=\"%s", string 2-"ks\"\n\n",str1,str2); break;
+
+printf("enter first string:"); scanf("%s", str1); printf("enter second string:"); scanf("%s",str2); jestrenp(str1,str2);
+
+printik strings are not sane\n\n"); break;
+
+case St
