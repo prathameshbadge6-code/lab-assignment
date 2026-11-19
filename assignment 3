@@ -1,1 +1,49 @@
+#sinclude <stdio.h>
+ #incle estdlib.h>
+ int main()
+{
+Sint a,b,c,d,e,f,ch
+printf("enter ist no\n");
 
+scanf("%d",&a);
+printf("enter: 2nd ne\n");
+ scanf("%d",&b);
+ while(1)
+{
+printf().addthon
+
+printf("\n2.subtraction\n");
+
+printf("\n3.multiplication\\even\n");
+ printf("\nd.Diviston\n");
+
+printf("\n5.Exit\n");
+ printf("\n enter your khotce:");
+ scanf("%d",&ch);
+
+switch(ch)
+{
+case 1:
+ca-b
+printf("%d",c);
+ break;
+case 2:
+ dea-b;
+
+ printf("%d",d);
+ break;
+ case 3:
+exa*b;
+ printf("id");
+ break;
+ case 4:
+ fea/b
+ printf("%d",f);
+ break
+case 5;
+{
+printf("\n exiting program...\n");
+exit(0);
+}
+}
+return
