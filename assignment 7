@@ -1,1 +1,85 @@
+#include <stdio.h>
+struct Student
+{
+int roll;
+int m1, m2, m3;
+char name[30];
+int total:
+float per;
+ int main()
+ {
+int i, n;
+printf("--Student Information --\n");
+printf("Enter the number of records (1-100): ");
+if (scanf("%d", &n) != 1 || n < 1 || n > 100)
+{
+printf("Invalid number of records!\n");
+return 1;
+}
+struct Student strarr[199];
+for (i = 0; i < n; i++)
+{
+printf("\nEnter roll number of student: ");
+scanf("%d", &strarr[i].roll);
+printf("Enter marks of 3 subjects (out of 100): ");
+scanf("%d %d %d",
+&strarr[i].mi,
+8strarr[i].m2,
+&strarr[i].m3);
+printf("Enter name of student (single word): ");
+scanf("%29s", strarr[i].name);
+strarr[i].total = strarr[i].nl
+ strarr[1].m2
+ strarr[i].n3;
 
+strarr[i].per = strarr[i].total / 3.0;
+
+if (strarr[i].nl < 9 || strarr[i].n1 > 100 ||
+
+strarr[i].m2 < || strarr[i].n2 > 100 ||
+
+strarr[i].m3 < 9 || strarr[i].m3 > 150)
+{
+printf("Invalid marks entered. Please rerun the program.\n");
+
+return 1;
+}
+}
+
+printf("\n\n-.....Student Result\n");
+
+printf("%-Bs -155 %-65%-65%-65%-75%-85 %-8310",
+
+"Roll", "Name", "M1", "M2", "M3",
+
+"Total", "Percent", "Result");
+
+for (i = 0; i < n; i++)
+{
+printf("%-80%-15s %-60 X-60 %-60%-70 %-8.2f %-8s\n",
+
+strarr[i].roll,
+
+
+strarr[i].name,
+
+
+strarr[i].mi,
+
+
+strarr[i].n2,
+
+
+strarr[1].m3,
+
+
+strarr[i].total,
+
+
+strarr[i].per,
+
+(strarr[i].per <20)? "Fail": "Pass");
+
+}
+return 0;
+}
